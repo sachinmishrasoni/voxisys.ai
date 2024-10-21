@@ -5,15 +5,16 @@ import Chats from "../Pages/Chats";
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        // http://localhost:5173/voxisys.ai/
+        path: "/voxisys.ai/",
         element: <App />,
         children: [
             {
-                path: "/",
-                element: <Navigate to="/chats" />,
+                path: "",
+                element: <Navigate to="/voxisys.ai/chats" />,
             },
             {
-                path: "/chats",
+                path: "/voxisys.ai/chats",
                 element: <Chats />
             },
         ]
