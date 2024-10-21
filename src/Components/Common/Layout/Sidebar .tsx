@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import { Box, Typography, Container } from '@mui/material';
 import SearchBox from '../../SearchBox';
 // import { BsCalendar4Event } from "react-icons/bs";
@@ -8,7 +8,7 @@ import Header from './Header';
 // import { BiMessageSquareAdd } from "react-icons/bi";
 
 const Sidebar = () => {
-    const [open, setOpen] = useState(false); // State to control drawer open/close
+    // const [open, setOpen] = useState(false); // State to control drawer open/close
 
     // Toggle drawer open/close
     // const toggleDrawer = () => {
@@ -19,7 +19,7 @@ const Sidebar = () => {
         <Box sx={{ display: 'flex' }}>
 
             {/* Sidebar Drawer */}
-            <LeftDrawer open={open} setIsOpen={setOpen} />
+            <LeftDrawer />
             {/* Main Content Area */}
             <Box sx={{ flexGrow: 1 }}>
                <Header />
