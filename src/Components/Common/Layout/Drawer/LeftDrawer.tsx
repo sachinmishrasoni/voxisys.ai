@@ -32,7 +32,7 @@ const DrawerItem = ({ open, icon, label }: { open: boolean, icon: React.ReactNod
     </ListItemButton>
 );
 
-const LeftDrawer = ({ setOpen }: any) => {
+const LeftDrawer = () => {
     const modalState = useSelector((state: RootState) => state.common.leftModalState);
     const { open } = modalState;
 
