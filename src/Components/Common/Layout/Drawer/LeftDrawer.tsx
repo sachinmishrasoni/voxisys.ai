@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { Drawer, List, ListItemIcon, ListItemText, IconButton, Box, Typography, ListItemButton, Tooltip, Stack, Avatar } from '@mui/material';
-import { TbMessage2Plus } from "react-icons/tb";
+// import { TbMessage2Plus } from "react-icons/tb";
 import { TbMessage } from "react-icons/tb";
 import { LuBookmarkMinus } from "react-icons/lu";
 import { IoSettingsOutline } from "react-icons/io5";
 import { AiOutlineStar } from "react-icons/ai";
-import { BsCalendar4Event } from "react-icons/bs";
+// import { BsCalendar4Event } from "react-icons/bs";
 import DropdownMenu from '../../DropDownMenu';
 import { FaRegUser } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
@@ -47,9 +47,9 @@ const LeftDrawer = ({ setOpen }: any) => {
     };
 
     // Toggle drawer open/close
-    const toggleDrawer = () => {
-        setOpen(!open);
-    };
+    // const toggleDrawer = () => {
+    //     setOpen(!open);
+    // };
 
     const menuItems = [
         { label: 'My Plan', icon: <AiOutlineStar />, onClick: () => alert('My Plan clicked') },

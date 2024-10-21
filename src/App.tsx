@@ -1,5 +1,5 @@
 
-import { Box, Container } from '@mui/material'
+import { Box } from '@mui/material'
 import './App.css'
 // import BrokenComponent from './Components/BrokenComponent '
 import ErrorBoundary from './Components/Common/Errors/ErrorBoundary'
@@ -7,7 +7,7 @@ import LeftDrawer from './Components/Common/Layout/Drawer/LeftDrawer'
 import Header from './Components/Common/Layout/Header'
 import RightDrawer from './Components/Common/Layout/Drawer/RightDrawer'
 import { Outlet } from 'react-router-dom'
-import Footer from './Components/Common/Layout/Footer'
+// import Footer from './Components/Common/Layout/Footer'
 
 function App() {
 

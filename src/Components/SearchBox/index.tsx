@@ -1,4 +1,4 @@
-import { alpha, FormControl, IconButton, InputAdornment, OutlinedInput, Stack } from '@mui/material';
+import { alpha, FormControl, IconButton, InputAdornment, OutlinedInput } from '@mui/material';
 import { IoAttach } from "react-icons/io5";
 import { FiSend } from "react-icons/fi";
 import { AiOutlineAudio } from "react-icons/ai";

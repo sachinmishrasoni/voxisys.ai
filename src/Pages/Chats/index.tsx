@@ -1,5 +1,4 @@
-import { Box, Chip, Container, Stack, Typography } from '@mui/material'
-import React from 'react'
+import { Box, Container, Typography } from '@mui/material'
 import SearchBox from '../../Components/SearchBox'
 import ChipBox from '../../Components/ChipBox'
 
