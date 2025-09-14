@@ -1,5 +1,4 @@
 import { Box, Button, Container, Paper, Stack, Typography } from '@mui/material'
-import React from 'react'
 import Header from './Header'
 import BackgroundImg from '../../assets/background.jpg'
 import { useNavigate } from 'react-router-dom'
