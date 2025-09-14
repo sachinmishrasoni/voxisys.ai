@@ -17,7 +17,7 @@ class ErrorBoundary extends Component<Props, State> {
     }
 
     // This lifecycle method is used to update the state when an error occurs
-    static getDerivedStateFromError(_error: Error) {
+    static getDerivedStateFromError() {
         return { hasError: true };
     }
 

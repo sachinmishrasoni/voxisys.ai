@@ -1,8 +1,8 @@
 import AuthLayout from '../Layout'
-import { alpha, Button, Paper, Stack, TextField, Typography } from '@mui/material'
-import { useNavigate } from 'react-router-dom';
+import { alpha, Button, Paper, TextField, Typography } from '@mui/material'
+// import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import ThirdParty from '../Components/ThirdParty';
+// import ThirdParty from '../Components/ThirdParty';
 
 
 const pageVariants = {
@@ -17,7 +17,7 @@ const pageTransition = {
 };
 
 const ForgetPassword = () => {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     document.title = 'Sign Up - Voxisys.ai';
     return (

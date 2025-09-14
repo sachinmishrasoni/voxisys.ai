@@ -49,7 +49,7 @@ const Login = () => {
       >
         <Typography variant='h5' mb={2} fontWeight={'bold'}>Welcome back</Typography>
         <TextField fullWidth label='Email or Phone' />
-        <Button fullWidth variant='contained' sx={{ mt: 1, py: 1.2, borderRadius: 3 }}>Continue</Button>
+        <Button fullWidth variant='contained' onClick={() => navigate('/voxisys.ai/chats')} sx={{ mt: 1, py: 1.2, borderRadius: 3 }}>Continue</Button>
 
         <Stack direction={'row'} gap={0.5}>
           <Typography>Don&apos;t have an account?</Typography>
