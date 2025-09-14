@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import App from "../App";
 import PageNotFound from "../Components/Common/Errors/PageNotFound";
 import Chats from "../Pages/Chats";
@@ -12,6 +12,10 @@ import ForgetPassword from "../Pages/Auth/ForgetPassword";
 // http://localhost:5173/voxisys.ai/
 
 const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Navigate to="/voxisys.ai" replace />,  
+    },
     {
         path: "/voxisys.ai",
         element: <Home />
